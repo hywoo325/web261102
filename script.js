@@ -47,6 +47,8 @@ const avgText = average.toFixed(1);
 const best = titles[maxIndex];
 alert(`내 영화 ${titles.length}편, 평균 ${avgText}점, 최고는 ${best}`);
 
+document.getElementById("stats").textContent = "평균 " + avgText + "점";
+
 // // document.write("외부 스크립트 방법");
 
 // console.log("여기 부분은 웹페이지가 아니라 콘솔에 출력이 됩니다.");
